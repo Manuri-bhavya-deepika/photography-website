@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div class="head">
+        <div class="navbar">
+         <a href="../photography/Home.html">Home</a>
+         <a href="../photography/gallery.html">Gallery</a>
+          <a class="active" href="../photography/contact.html">Contact</a>
+           <a href="../photography/courses.html">Courses</a>    
+        </div>
+  </div>
+  <div class="first">
+    <center>
+        <h1 class="animate__animated animate__bounce">Contact</h1>
+     </center>
+    </div>
+    <div id="midd">
+    <form>
+      <table>
+       <tr> <td><label>First Name</label></td><td><input class="boxx" type="text"></td></tr><br>
+       <tr> <td><label>Last Name</label></td><td><input class="boxx" type="text"></td></tr><br>
+       <tr> <td><label>Email</label></td><td><input class="boxx" type="email"></td></tr><br>
+       <tr> <td> <label>Mobile Number</label></td><td><input class="boxx" type="text" pattern="[0-9]" maxlength="10" minlength="10"></td></tr><br>
+        <tr> <td>  <label>What is your query</label></td>
+      <td> <select name="query" id="query">
+        <option id="query">Select one</option>
+        <option value="course">Want to register any course</option>
+        <option value="course fee">Any course Details</option>
+        <option value="be a photographer">Want to be a Photographer</option>
+            <option value="other">Other</option>
+      </select> </td></tr><br><br>
+       <tr><td><label>Ask a Question</label></td>
+      <td><textarea rows="5" cols="20">write your query</textarea><br></td></tr>
+       <tr><td><button id="button" type="submit">Submit</button></td></tr>
+      </table>
+    </form>
+  </div>
+</body>
+</html>
